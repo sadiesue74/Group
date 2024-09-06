@@ -12,18 +12,12 @@ namespace MaterialList.Forms
 {
     public partial class frmMaterialList : Form
     {
-        private List<ItemInfo> _Items = new List<ItemInfo>();
+        private List<ItemInfo> _Items = new List<ItemInfo>() { };
         private BindingSource bind = new BindingSource();
         public frmMaterialList()
         {
             InitializeComponent();
-            bind.DataSource = _Items;
-            dataGridView1.DataSource = bind;
-        }
-
-        private void btnAdd_Click(object sender, EventArgs e)
-        {
-            //Show dialog to add new item to list
+            RefreshGrid();
         }
 
         private void BtnCalculate_Click(object sender, EventArgs e)
@@ -35,12 +29,23 @@ namespace MaterialList.Forms
         {
             //Save to excel
             //Via interop?
+            //Or Open XML package
         }
 
         private void btnClear_Click(object sender, EventArgs e)
         {
             //Clear List
+            bind.DataSource = null;
+            dataGridView1.DataSource = null;
+            _Items.Clear();
+            RefreshGrid();
         }
 
+        private void RefreshGrid()
+        {
+            bind.DataSource = _Items;
+            dataGridView1.DataSource = bind;
+            dataGridView1.Refresh();
+        }
     }
 }

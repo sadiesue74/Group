@@ -31,28 +31,29 @@
             btnClear = new Button();
             BtnCalculate = new Button();
             dataGridView1 = new DataGridView();
-            btnAdd = new Button();
             btnSave = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // btnClear
             // 
-            btnClear.Location = new Point(342, 12);
+            btnClear.Location = new Point(232, 12);
             btnClear.Name = "btnClear";
             btnClear.Size = new Size(104, 46);
             btnClear.TabIndex = 14;
             btnClear.Text = "Clear";
             btnClear.UseVisualStyleBackColor = true;
+            btnClear.Click += btnClear_Click;
             // 
             // BtnCalculate
             // 
-            BtnCalculate.Location = new Point(122, 12);
+            BtnCalculate.Location = new Point(12, 12);
             BtnCalculate.Name = "BtnCalculate";
             BtnCalculate.Size = new Size(104, 46);
             BtnCalculate.TabIndex = 13;
             BtnCalculate.Text = "Calculate";
             BtnCalculate.UseVisualStyleBackColor = true;
+            BtnCalculate.Click += BtnCalculate_Click;
             // 
             // dataGridView1
             // 
@@ -63,25 +64,17 @@
             dataGridView1.Size = new Size(1256, 361);
             dataGridView1.TabIndex = 12;
             // 
-            // btnAdd
-            // 
-            btnAdd.Location = new Point(12, 12);
-            btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(104, 46);
-            btnAdd.TabIndex = 11;
-            btnAdd.Text = "Add Row";
-            btnAdd.UseVisualStyleBackColor = true;
-            // 
             // btnSave
             // 
-            btnSave.Location = new Point(232, 12);
+            btnSave.Location = new Point(122, 12);
             btnSave.Name = "btnSave";
             btnSave.Size = new Size(104, 46);
             btnSave.TabIndex = 10;
             btnSave.Text = "Save";
             btnSave.UseVisualStyleBackColor = true;
+            btnSave.Click += btnSave_Click;
             // 
-            // Form1
+            // frmMaterialList
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -89,9 +82,8 @@
             Controls.Add(btnClear);
             Controls.Add(BtnCalculate);
             Controls.Add(dataGridView1);
-            Controls.Add(btnAdd);
             Controls.Add(btnSave);
-            Name = "Form1";
+            Name = "frmMaterialList";
             Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
@@ -102,7 +94,6 @@
         private Button btnClear;
         private Button BtnCalculate;
         private DataGridView dataGridView1;
-        private Button btnAdd;
         private Button btnSave;
     }
 }
