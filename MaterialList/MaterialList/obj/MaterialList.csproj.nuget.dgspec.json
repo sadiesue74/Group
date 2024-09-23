@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cokerd\\Documents\\GitHub\\Group\\MaterialList\\MaterialList\\MaterialList.csproj": {}
+    "C:\\Users\\cokerd\\OneDrive - Zimmer Biomet\\Documents\\GitHub\\Group\\MaterialList\\MaterialList\\MaterialList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cokerd\\Documents\\GitHub\\Group\\MaterialList\\MaterialList\\MaterialList.csproj": {
+    "C:\\Users\\cokerd\\OneDrive - Zimmer Biomet\\Documents\\GitHub\\Group\\MaterialList\\MaterialList\\MaterialList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cokerd\\Documents\\GitHub\\Group\\MaterialList\\MaterialList\\MaterialList.csproj",
+        "projectUniqueName": "C:\\Users\\cokerd\\OneDrive - Zimmer Biomet\\Documents\\GitHub\\Group\\MaterialList\\MaterialList\\MaterialList.csproj",
         "projectName": "MaterialList",
-        "projectPath": "C:\\Users\\cokerd\\Documents\\GitHub\\Group\\MaterialList\\MaterialList\\MaterialList.csproj",
+        "projectPath": "C:\\Users\\cokerd\\OneDrive - Zimmer Biomet\\Documents\\GitHub\\Group\\MaterialList\\MaterialList\\MaterialList.csproj",
         "packagesPath": "C:\\Users\\cokerd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cokerd\\Documents\\GitHub\\Group\\MaterialList\\MaterialList\\obj\\",
+        "outputPath": "C:\\Users\\cokerd\\OneDrive - Zimmer Biomet\\Documents\\GitHub\\Group\\MaterialList\\MaterialList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
